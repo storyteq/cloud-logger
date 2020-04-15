@@ -3,8 +3,8 @@
     "description": "A wrapper for sending Bunyan style messages to Stackdriver",
     "type": "library",
     "require": {
-        "google/cloud": "^0.131.0",
-        "nesbot/carbon": "^2.32"
+        "google/cloud": ">0.98",
+        "nesbot/carbon": ">1.26"
     },
     "authors": [
         {

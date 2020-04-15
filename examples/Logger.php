@@ -23,7 +23,8 @@ class Logger
             '127.0.0.1',
             ['type' => 'gce_instance'],
             ['zone' =>  'europe-west-4a'],
-            json_decode(file_get_contents(__DIR__.'/../credentials.json'), true)
+            json_decode(file_get_contents(__DIR__.'/../credentials.json'), true),
+            true
         );
 
         // Sending a log with loglevel info
