@@ -1,0 +1,21 @@
+{
+    "name": "storyteq/cloud-logger",
+    "description": "A wrapper for sending Bunyan style messages to Stackdriver",
+    "type": "library",
+    "require": {
+        "google/cloud": "^0.131.0",
+        "nesbot/carbon": "^2.32"
+    },
+    "authors": [
+        {
+            "name": "Badr Eddial",
+            "email": "badr.eddial@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Storyteq\\": "src/Storyteq/"
+        }
+    }
+}
